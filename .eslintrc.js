@@ -3,7 +3,7 @@ module.exports = {
         "browser": true,
         "es6": true
     },
-    "extends": ["@mfw/eslint-config/react"],
+    "extends": ["@devqin/eslint-config/react"],
     "globals": {
         "Atomics": "readonly",
         "SharedArrayBuffer": "readonly"

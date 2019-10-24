@@ -1,32 +1,25 @@
 {
-  "name": "forminput",
+  "name": "textfield",
   "version": "1.0.0",
-  "description": "A form Input components renderd by a json desc.",
-  "main": "index.js",
-  "scripts": {
-    "test": "jest"
-  },
-  "repository": {
-    "type": "git",
-    "url": "ssh://git@ssh.gitlab.mfwdev.com:333/mbrand/forminput.git"
-  },
-  "keywords": [
-    "form",
-    "input",
-    "json-render"
-  ],
-  "author": "qintengfei@mafengwo.com",
-  "license": "ISC",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
   "dependencies": {
-    "react": "^16.11.0",
-    "react-dom": "^16.11.0",
-    "styled-components": "^4.4.0"
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "react-scripts": "3.0.1"
   },
-  "devDependencies": {
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.16.0",
-    "@mfw/eslint-config": "^1.0.8",
-    "eslint": "^6.1.0",
-    "eslint-plugin-react-hooks": "^2.2.0"
-  }
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
