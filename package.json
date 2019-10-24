@@ -1,0 +1,32 @@
+{
+  "name": "forminput",
+  "version": "1.0.0",
+  "description": "A form Input components renderd by a json desc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@ssh.gitlab.mfwdev.com:333/mbrand/forminput.git"
+  },
+  "keywords": [
+    "form",
+    "input",
+    "json-render"
+  ],
+  "author": "qintengfei@mafengwo.com",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "styled-components": "^4.4.0"
+  },
+  "devDependencies": {
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.16.0",
+    "@mfw/eslint-config": "^1.0.8",
+    "eslint": "^6.1.0",
+    "eslint-plugin-react-hooks": "^2.2.0"
+  }
+}
